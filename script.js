@@ -46,9 +46,9 @@ class News {
     }
 }
 
-// Initialize APIs
-const stock = new Stock('DQGVJR0I3K5O9001');
-const news = new News('1efbf8f1741d4a9e994c61d617fe1a5c');
+// Initialize APIs with actual keys
+const stock = new Stock('DQGVJR0I3K5O9001'); // Alpha Vantage API key
+const news = new News('1efbf8f1741d4a9e994c61d617fe1a5c'); // News API key
 
 // DOM Elements
 const stockInput = document.getElementById('stockInput');
