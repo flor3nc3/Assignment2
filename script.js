@@ -47,7 +47,7 @@ class News {
 }
 
 // Initialize APIs
-const stock = new Stock('your_alpha_vantage_api_key_here');
+const stock = new Stock('DQGVJR0I3K5O9001');
 const news = new News('1efbf8f1741d4a9e994c61d617fe1a5c');
 
 // DOM Elements
